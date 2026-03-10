@@ -5,6 +5,8 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background: url("murphys-new-background.jpeg") no-repeat center center fixed;
+  background-size: cover;
 }
 .wrapper {
   box-sizing: border-box;
@@ -12,3 +14,34 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+
+
+#topMenu {
+  background-color: #1B4F24;
+  color: white;
+  padding-bottom: 15px;
+}
+
+#centerText {
+  color: white;
+  height: 500px;
+}
+
+#bottomMenu {
+  background-color: #1B4F24;
+  color: white;
+}
+
+div.nav-item.nav-link {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+/*:root {*/
+/*  --bs-link-color: white;*/
+/*}*/
+
